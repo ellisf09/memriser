@@ -1,56 +1,42 @@
-# MEMRISER
+# Memriser
+![GitHub License](https://img.shields.io/github/license/ellisf09/memriser)
+An intelligent browser automation tool built in Python and Selenium that automatically completes Memrise speed reviews and learning tasks using translation APIs, DOM analysis, and local answer caching.
 
-**Self-learning** Memrise bot with Google Translate support.
+## ✨ Features
+- **Automated Browser Interaction:** Uses Selenium and JavaScript injection to read prompts and submit answers seamlessly.
+- **Self-Learning Knowledgebase:** Caches verified translations locally to speed up future reviews without redundant API calls.
+- **Translation & Override Support:** Integrates with Google Translate and supports custom synonym mappings via `syn_overrides.json`.
+- **Configurable Behaviour:** Easily tweak automation delays and bot settings in `bot_config.json`.
 
-**Motivation:**
-There was nothing online coming close to this, so I made it! It took a while with the different elements of the website, but it's a great project.
+## 🛠️ Prerequisites
+- Python 3.8+
+- Google Chrome installed
+- Matching [ChromeDriver](https://chrome.com) added to your system `PATH`
 
-**Quick Start:**
-You MUST have google chrome installed!
-INSTALLATION:
-1. download the .zip (click ```Code``` then ```Download ZIP```)
-2. unzip the .zip somewhere
-3. create a .env file in the same directory
-4. Add this to the .env file:<br>
-   ```MEMRISE_EMAIL=<your memrise email>```<br>
-   ```MEMRISE_PASSWORD=<your memrise password>```
-5. Run terminal command ```pip install requirements.txt``` while in the folder where you extracted anything
-6. Download the right ChromeDriver version for your browser:<br>
-    1. Check your browser version by searching ```chrome://settings/help``` and reading the version number.
-    2. Then, go to [ChromeDrivers](https://github.com/dreamshao/chromedriver) and download the one matching your version, with the correct system too.
-    3. Add this file to PATH:<br>
-       <b>Windows</b>
-       1. Move chromedriver.exe to a folder, e.g., C:\WebDriver\.<br>Press Win + S, search Environment Variables, and open Edit the system environment variables.
-       2. Click Environment Variables → under System variables find Path → Edit → New.
-       3. Add the folder path (e.g., C:\WebDriver\) → OK all windows.
-       4. Open a new Command Prompt and run:
-          <br>```chromedriver --version```
-          <br>If it shows the version, it’s correctly added.<br><br>
-   <b>macOS / Linux</b>
-      1. Move chromedriver to a folder, e.g., /usr/local/bin/.
-      2. Open terminal and add it to PATH if needed:<br>```export PATH=$PATH:/usr/local/bin```
-      3. To make it permanent, add the above line to your shell config (~/.bashrc, ~/.zshrc, etc.).
-  
-**Usage:**
-Run ```python main.py```
-Wait for your homework to be completed!
+## 🚀 Installation & Setup
 
-## Submit a pull request (Contributing)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd Memriser
+   ```
 
-If you'd like to contribute, please fork the repository and open a pull request to the `main` branch. I'm open to contributing!
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Configure credentials:**
+   Create a `.env` file in the root directory and add your Memrise login details:
+   ```env
+   MEMRISE_EMAIL=your_email@example.com
+   MEMRISE_PASSWORD=your_password
+   ```
 
+4. **Run the bot:**
+   ```bash
+   python Memriser.py
+   ```
 
-For some reason, memrise doesn't have any anti-bot things such as captchas or movement detection, so i made this :)
-Let me know if there is any bugs by making an issue.
-
-
-
-
-
-
-
-
-
-
-
+## 🤝 Contributing
+Contributions, bug reports, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
