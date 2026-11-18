@@ -1,5 +1,11 @@
 # Memriser
 ![GitHub License](https://img.shields.io/github/license/ellisf09/memriser)
+![GitHub last commit](https://img.shields.io/github/last-commit/ellisf09/memriser)
+
+<img src="https://skillicons.dev/icons?i=py,selenium">
+
+
+
 An intelligent browser automation tool built in Python and Selenium that automatically completes Memrise speed reviews and learning tasks using translation APIs, DOM analysis, and local answer caching.
 
 ## ✨ Features
