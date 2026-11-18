@@ -1,6 +1,11 @@
 # MEMRISER
 
 **Self-learning** Memrise bot with Google Translate support.
+
+**Motivation:**
+I really didn't want to do this homework, so i coded this. There's no other thing that does it!
+
+**Quick Start:**
 You MUST have google chrome installed!
 INSTALLATION:
 1. download the .zip (click ```Code``` then ```Download ZIP```)
@@ -26,7 +31,13 @@ INSTALLATION:
       2. Open terminal and add it to PATH if needed:<br>```export PATH=$PATH:/usr/local/bin```
       3. To make it permanent, add the above line to your shell config (~/.bashrc, ~/.zshrc, etc.).
   
+**Usage:**
+Run ```python main.py```
+Wait for your homework to be completed!
 
+### Submit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch. I'm open to contributing!
 
 
 
