@@ -35,7 +35,7 @@ INSTALLATION:
 Run ```python main.py```
 Wait for your homework to be completed!
 
-## Submit a pull request
+## Submit a pull request (Contributing)
 
 If you'd like to contribute, please fork the repository and open a pull request to the `main` branch. I'm open to contributing!
 
