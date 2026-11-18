@@ -3,7 +3,7 @@
 **Self-learning** Memrise bot with Google Translate support.
 
 **Motivation:**
-I really didn't want to do this homework, so i coded this. There's no other thing that does it!
+There was nothing online coming close to this, so I made it! It took a while with the different elements of the website, but it's a great project.
 
 **Quick Start:**
 You MUST have google chrome installed!
